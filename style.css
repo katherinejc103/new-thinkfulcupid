@@ -84,6 +84,11 @@ header nav ul li a:hover {
   color: #bdbdbd;
   text-decoration: none;
 }
+.logo {
+  color: #ecdbc9;
+  font-family: "Tangerine", cursive;
+  font-size: 48px;
+}
 
 header nav ul li:last-child a {
   /* Removes the margin to the right of the last anchor tag 
@@ -228,18 +233,33 @@ footer p {
 }
 
 /* Groups & Items  (Desktop) */
-@media all and (min-width: 800px) {
+@media all and (min-width: 768px) {
 
   .imageOne {
-    max-width: 800px;
+    max-width: 768px;
+    flex-direction: space-around;
   }
 
   .imageTwo {
-    max-width: 400px;
+    max-width: 300px;
   }
 
   .imageThree {
-    max-width: 800px;
+    max-width: 768px;
+  }
+
+  .width-50 {
+    width: 50%;
+    margin: 15px;
+    direction:flex;
+    justify-content: center;
+  }
+  .blog {
+    margin: 15px;
+    
+  }
+  .margin{
+    margin-top: 15%;
   }
 
   .flex {
